@@ -1,0 +1,31 @@
+{
+  "name": "auth3-project",
+  "version": "1.0.0",
+  "description": "This project uses NodeJS, Express, SQLite and JSON Web Tokens on the server and has a full authentication workflow (register/login/logout/restrict endpoint)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node",
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronjan98/node-auth3-project.git"
+  },
+  "author": "Aaron Janovitch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronjan98/node-auth3-project/issues"
+  },
+  "homepage": "https://github.com/aaronjan98/node-auth3-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
